@@ -4,10 +4,10 @@ Ruhivabot adalah bot otomatis yang dikembangkan untuk membantu tugas-tugas admin
 
 ## Fitur
 
-• **DEFCON**
-• **Clerking IPTV dan UAA**
-• **Clerking Bak pasir**
-• **Clerking Investigasi pengguna siluman** (coming soon!)
+- **DEFCON**
+- **Clerking IPTV dan UAA**
+- **Clerking Bak pasir**
+- **Clerking Investigasi pengguna siluman** (coming soon!)
 
 ## Prasyarat instalasi
 
