@@ -79,7 +79,7 @@ def update_defcon_template(level, rpm, last_value):
         page.save(
             summary=f"[Bot Clerking]: memperbarui DEFCON: {rpm:.2f} RPM – DEFCON {level}",
             minor=True,
-            botflag=True
+            bot=True
         )
         print(f"[INFO] Halaman DEFCON berhasil diperbarui → Level {level} ({rpm:.2f} RPM)")
     except pywikibot.exceptions.Error as e:
