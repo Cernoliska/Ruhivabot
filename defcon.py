@@ -96,6 +96,6 @@ def main():
         print(f"{timestamp} Jumlah revert {UPDATE_INTERVAL_MINUTES} menit terakhir: "
               f"{reverts} → Rata-rata {avg_rpm:.2f} RPM → Level {level}")
         last_update_value = update_defcon_template(level, avg_rpm, last_update_value)
-        time.sleep(UPDATE_INTERVAL_MINUTES * 60)  # tidur sesuai interval
+        time.sleep(UPDATE_INTERVAL_MINUTES * 60)
 if __name__ == "__main__":
     main()
